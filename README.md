@@ -32,28 +32,6 @@ A compact PyTorch CNN that reads a **3×3 grid of MNIST digits** and solves thre
 Best checkpoint for the 50-epoch run was selected at **epoch 46** by validation score  
 `(missing_acc + sorted_acc) − sum_mae`.
 
-### Training curves (50 epochs)
-
-<p align="center">
-  <img src="results/epoch_50/training_history_loss.png" width="32%" alt="Loss" />
-  <img src="results/epoch_50/training_history_acc.png" width="32%" alt="Accuracy" />
-  <img src="results/epoch_50/training_history_mae.png" width="32%" alt="Sum MAE" />
-</p>
-
-<details>
-<summary>20-epoch curves</summary>
-
-<p align="center">
-  <img src="results/epoch_20/training_history_loss.png" width="32%" alt="Loss" />
-  <img src="results/epoch_20/training_history_acc.png" width="32%" alt="Accuracy" />
-  <img src="results/epoch_20/training_history_mae.png" width="32%" alt="Sum MAE" />
-</p>
-
-</details>
-
-Pretrained weights and metadata live in [`results/epoch_20/`](results/epoch_20/) and [`results/epoch_50/`](results/epoch_50/).
-
----
 
 ## How the data works
 

@@ -93,15 +93,12 @@ sudoku-mnist-multitask/
 ├── LICENSE
 ├── requirements.txt
 ├── src/
-│   ├── __init__.py
-│   ├── data.py          # SudokuMNIST dataset
-│   ├── model.py         # SudokuNet
-│   ├── train.py         # training & evaluation loop
-│   └── utils.py         # seeding, metrics, helpers
-└── results/
-    ├── epoch_20/        # checkpoint, metrics, plots
-    └── epoch_50/
-```
+   ├── __init__.py
+   ├── data.py          # SudokuMNIST dataset
+   ├── model.py         # SudokuNet
+   ├── train.py         # training & evaluation loop
+   └── utils.py         # seeding, metrics, helpers
+
 
 ---
 

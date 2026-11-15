@@ -165,3 +165,10 @@ model.eval()
 - Python **3.9+**
 - PyTorch **2.0+** (CUDA or Apple Silicon MPS recommended)
 - See [`requirements.txt`](requirements.txt)
+
+
+## Authors
+
+- [Arian Jafari](https://github.com/Arian-jafari)
+- [Parsa Shahkar](https://github.com/parsashahkar21)
+- [Paniz Roozegar](https://github.com/paniizz)
